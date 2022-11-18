@@ -8,27 +8,27 @@ var crash = document.getElementById("crash_x.wav")
 
 buttonElement1.addEventListener('click', function () {
     console.log('I was clicked!')
-    bubbling.play()
+    bubbling.play();
   })
 
   buttonElement1.addEventListener('mouseenter', function () {
-    bubbling.play()
+    bubbling.play();
   })
 
 
   buttonElement2.addEventListener('click', function () {
     console.log('I was clicked!')
-    coin.play()
+    coin.play();
   })
   buttonElement2.addEventListener('mouseenter', function () {
-    coin.play()
+    coin.play();
 })
 
 
   buttonElement3.addEventListener('click', function () {
     console.log('I was clicked!')
-    crash.play()
+    crash.play();
   })
   buttonElement3.addEventListener('mouseenter', function () {
-    crash.play()
+    crash.play();
 })
