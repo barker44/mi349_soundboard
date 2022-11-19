@@ -5,8 +5,7 @@ var buttonElement3 = document.getElementById('button-3');
 function play(element) {
   var audio = document.getElementById(element);
   audio.play();
+  alert("test");
 }
 
-buttonElement1.addEventListener('click', () =>{
-  play("bubbling.wav");
-  })
+buttonElement1.addEventListener('click', play("bubbling.wav"));
