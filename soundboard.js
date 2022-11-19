@@ -7,29 +7,6 @@ function play(element) {
   audio.play();
 }
 
-
 buttonElement1.addEventListener('click', () =>{
   play("bubbling.wav");
   })
-
-  buttonElement1.addEventListener('mouseenter', function () {
-    bubbling.play();
-  })
-
-
-  buttonElement2.addEventListener('click', function () {
-    console.log('I was clicked!');
-    coin.play();
-  })
-  buttonElement2.addEventListener('mouseenter', function () {
-    coin.play();
-})
-
-
-  buttonElement3.addEventListener('click', function () {
-    console.log('I was clicked!');
-    crash.play();
-  })
-  buttonElement3.addEventListener('mouseenter', function () {
-    crash.play();
-})
