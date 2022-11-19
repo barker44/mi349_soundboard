@@ -1,0 +1,22 @@
+html{
+    background: gray;
+}
+
+.button {
+    border:groove;
+    color: white;
+    text-align: center;
+    text-decoration:dotted;
+}
+
+#button-1{
+    background-color:cornflowerblue;
+}
+
+#button-2{
+    background-color:darkolivegreen;
+}
+
+#button-3{
+    background-color:indianred;
+}
