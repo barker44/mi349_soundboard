@@ -1,12 +1,13 @@
 html{
     background: gray;
+    margin-top: 100px;
 }
 
 .button {
-    border:groove;
-    color: white;
     text-align: center;
     text-decoration:dotted;
+    font-size: 32px;
+    border-radius:12px;
 }
 
 #button-1{
