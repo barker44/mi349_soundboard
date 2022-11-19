@@ -1,6 +1,5 @@
 html{
     background: gray;
-    margin-top: 100px;
 }
 
 .button {
@@ -8,6 +7,9 @@ html{
     text-decoration:dotted;
     font-size: 32px;
     border-radius:12px;
+    color: white;
+    margin: 0 auto;
+
 }
 
 #button-1{
