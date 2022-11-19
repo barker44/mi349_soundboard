@@ -3,7 +3,7 @@ var buttonElement2 = document.getElementById('button-2');
 var buttonElement3 = document.getElementById('button-3');
 
 function play(element) {
-  var audio = document.getElementById(element);
+  var audio = new Audio (element);
   audio.play();
 }
 
