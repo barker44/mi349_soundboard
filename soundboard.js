@@ -2,10 +2,9 @@ var buttonElement1 = document.getElementById('button-1');
 var buttonElement2 = document.getElementById('button-2');
 var buttonElement3 = document.getElementById('button-3');
 
-function play() {
-  var audio = new Audio("bubbling1.wav");
-  audio.play();
+function play_sound() {
+  new Audio("bubbling1.wav").play();
   alert("test");
 }
 
-buttonElement1.addEventListener('click', play());
+buttonElement1.addEventListener('click', play_sound());
