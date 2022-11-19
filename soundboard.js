@@ -2,13 +2,13 @@ var buttonElement1 = document.getElementById('button-1');
 var buttonElement2 = document.getElementById('button-2');
 var buttonElement3 = document.getElementById('button-3');
 
-var bubbling = new Audio("bubbling1.wav");
-var coin = new Audio("coin.wav");
-var crash = new Audio("crash_x.wav");
+function play(element) {
+  var audio = document.getElementById(element);
+  audio.play();
+}
 
-buttonElement1.addEventListener('click', function () {
-    console.log('I was clicked!');
-    bubbling.play();
+
+buttonElement1.addEventListener('click', play("bubbling.wav"),{
   })
 
   buttonElement1.addEventListener('mouseenter', function () {
