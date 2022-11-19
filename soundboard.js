@@ -7,4 +7,4 @@ function play() {
   new Audio("bubbling1.wav").play();
 }
 
-buttonElement1.addEventListener('click', play());
+buttonElement1.addEventListener('click', play);
