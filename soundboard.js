@@ -8,8 +8,8 @@ function play(element) {
 }
 
 
-buttonElement1.addEventListener('click', function(){
-  play("bubbling.wav")
+buttonElement1.addEventListener('click', () =>{
+  play("bubbling.wav");
   })
 
   buttonElement1.addEventListener('mouseenter', function () {
