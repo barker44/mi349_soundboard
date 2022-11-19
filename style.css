@@ -14,12 +14,14 @@ html{
 
 #button-1{
     background-color:cornflowerblue;
-    border-radius: 50%;
+    border-radius: 75%;
+    padding: 32px 16px;
 }
 
 #button-2{
     background-color:gold;
-    border-radius: 50%;
+    border-radius: 75%;
+    padding: 32px 16px;
 
 
 }
