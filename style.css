@@ -1,5 +1,5 @@
 html{
-    background: gray;
+    background: rgb(212, 211, 211);
 }
 
 .button {
@@ -14,10 +14,14 @@ html{
 
 #button-1{
     background-color:cornflowerblue;
+    border-radius: 50%;
 }
 
 #button-2{
-    background-color:darkolivegreen;
+    background-color:gold;
+    border-radius: 50%;
+
+
 }
 
 #button-3{
